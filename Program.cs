@@ -16,7 +16,8 @@ namespace sim_movement
             // List<int> startingPositionList = ToIntList(startingPostition);
 
             RectangleTable rectangle = new RectangleTable("rectangle");
-            rectangle.computeMatrix(4, 4);
+            int[,] matrix = rectangle.computeMatrix(4, 4);
+            rectangle.visualizeMatrix(matrix);
 
     
 
