@@ -9,6 +9,6 @@ This project is using .NET Core and C#
 
 ### Running the app
 
-1. ```clone the repo```
+1. ```git clone https://github.com/cris391/sim-movement```
 1. ```cd sim-movement```
 1. ```dotnet run```
